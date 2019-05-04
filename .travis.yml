@@ -1,0 +1,24 @@
+language: cpp
+os: linux
+dist: xenial
+sudo: enabled
+
+branches:
+  only:
+  - master
+
+addons:
+  apt:
+    packages:
+    - libc6:i386
+    - libncurses5:i386
+    - libstdc++6:i386
+
+install:
+  - sudo dpkg -i sampctl_1.8.38_linux_amd64.deb # sampctl installation
+  - sudo dpkg --add-architecture i386
+  - sudo apt update && sudo apt install -y g++-multilib
+
+script:
+- sampctl package ensure 
+- sampctl package build 

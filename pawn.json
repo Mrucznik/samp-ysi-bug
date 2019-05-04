@@ -1,0 +1,19 @@
+{
+	"user": "Mrucznik",
+	"repo": "samp-ysi-bug",
+	"entry": "script.pwn",
+	"output": "script.amx",
+	"dependencies": [
+		"pawn-lang/YSI-Includes@4.x"
+	],
+	"build": {
+		"name": "",
+		"args": [
+			"-d3",
+			"-;+",
+			"-(+",
+			"-Z-",
+			"-i../include"
+		]
+	}
+}
