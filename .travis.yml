@@ -3,6 +3,11 @@ os: linux
 dist: xenial
 sudo: enabled
 
+cache:
+    directories:
+      - /home/travis/build/Mrucznik/Mrucznik-RP-2.5/dependencies
+      - /home/travis/.samp
+
 addons:
   apt:
     packages:
