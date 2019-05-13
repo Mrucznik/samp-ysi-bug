@@ -9,6 +9,7 @@ addons:
     - libc6:i386
     - libncurses5:i386
     - libstdc++6:i386
+    - tree
 
 install:
   - sudo dpkg -i sampctl_1.8.38_linux_amd64.deb # sampctl installation
@@ -17,4 +18,5 @@ install:
 
 script:
 - sampctl package ensure 
-- sampctl package build 
+- tree
+- sampctl package build
