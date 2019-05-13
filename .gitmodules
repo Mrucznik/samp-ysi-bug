@@ -1,0 +1,3 @@
+[submodule "YSI-Includes"]
+	path = YSI-Includes
+	url = https://github.com/pawn-lang/YSI-Includes

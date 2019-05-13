@@ -13,7 +13,7 @@
 			"-;+",
 			"-(+",
 			"-Z-",
-			"-i../include"
+			"-iYSI-Includes"
 		]
 	}
 }
