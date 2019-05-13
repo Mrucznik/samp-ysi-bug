@@ -19,4 +19,4 @@ install:
 script:
 - sampctl package ensure 
 - tree
-- sampctl package build
+- sampctl package build --verbose
