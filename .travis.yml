@@ -24,4 +24,4 @@ install:
 script:
 - sampctl package ensure 
 - tree
-- sampctl package build --verbose
+- sampctl package build --relativePaths --verbose
